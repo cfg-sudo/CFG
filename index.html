@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Castle Financial Group</title>
+  <meta name="description" content="A legacy built for every stage. Trusted wealth management for young adults, working families, and pre-retirees." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announcement-bar">
+  Register now: <a href="#" data-signup="Investment Webinar" data-title="Reserve Your Webinar Seat" data-subtitle="Join us every Saturday from 12pm to 2pm — live, online, free.">Saturday Investment Webinar &rsaquo;</a> &ensp;Every Saturday &middot; 12pm–2pm &middot; Free
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">
+        <div class="nav-logo-main">Castle Financial Group</div>
+
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-item">
+          <button class="nav-link" data-dropdown-trigger="serve">Who We Serve <span class="nav-chevron">▾</span></button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-dropdown-trigger="events">Events <span class="nav-chevron">▾</span></button>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">Menu +</button>
+    </div>
+  </div>
+
+  <!-- Who We Serve dropdown — image cards (WWW Responsibility pattern) -->
+  <div class="dropdown-panel" id="dp-serve">
+    <div class="container">
+      <div class="dp-serve-inner">
+        <a class="dp-view-all" href="young-adults.html">&rarr;&ensp;View All&ensp;&rarr;</a>
+        <div class="dp-cards">
+          <a class="dp-card" href="young-adults.html">
+            <div class="dp-card-img"><img src="https://images.pexels.com/photos/3755824/pexels-photo-3755824.jpeg?auto=compress&cs=tinysrgb&w=400&h=267&dpr=1" alt="Young adult client" loading="lazy" /></div>
+            <div class="dp-card-name">Young Adults</div>
+            <div class="dp-card-sub">Ages 20–30</div>
+          </a>
+          <a class="dp-card" href="working-adults.html">
+            <div class="dp-card-img"><img src="https://images.pexels.com/photos/3760514/pexels-photo-3760514.jpeg?auto=compress&cs=tinysrgb&w=400&h=267&dpr=1" alt="Working adult professional" loading="lazy" /></div>
+            <div class="dp-card-name">Working Adults</div>
+            <div class="dp-card-sub">Ages 30–50</div>
+          </a>
+          <a class="dp-card" href="pre-retirees.html">
+            <div class="dp-card-img"><img src="https://images.pexels.com/photos/5908025/pexels-photo-5908025.jpeg?auto=compress&cs=tinysrgb&w=400&h=267&dpr=1" alt="Pre-retiree client" loading="lazy" /></div>
+            <div class="dp-card-name">Pre-Retirees</div>
+            <div class="dp-card-sub">Ages 50+</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events dropdown — text list -->
+  <div class="dropdown-panel" id="dp-events">
+    <div class="container">
+      <div class="dp-events-inner">
+        <div class="dp-event-list">
+          <button class="dp-event-item" data-signup="Investment Webinar" data-title="Reserve Your Webinar Seat" data-subtitle="Join us every Saturday from 12pm to 2pm — live, online, free.">
+            <div class="dp-event-name">Investment Webinar</div>
+            <div class="dp-event-sub">Every Saturday &middot; 12pm–2pm &middot; Online &middot; Free</div>
+          </button>
+          <button class="dp-event-item" data-signup="Baby Playmat" data-title="Claim Your Free Baby Playmat" data-subtitle="Register your interest and we'll arrange a convenient time to meet.">
+            <div class="dp-event-name">Free Baby Playmat</div>
+            <div class="dp-event-sub">New mothers &middot; Office visit &middot; Free</div>
+          </button>
+          <button class="dp-event-item" data-signup="Retirement Seminar" data-title="Reserve a Seminar Seat" data-subtitle="Monthly in-person seminars — limited to 20 participants. Register early.">
+            <div class="dp-event-name">Retirement Planning Seminar</div>
+            <div class="dp-event-sub">Monthly &middot; In-person &middot; Limited seats &middot; Free</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- ① HERO — full viewport, image bg, text bottom-left -->
+<section class="hero">
+  <div class="hero-bg"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&h=1080&q=80" alt="Singapore financial district skyline" /></div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-headline">Plan.<br>Every Stage.<br>Better.</h1>
+      <button class="hero-cta" data-signup="General Enquiry" data-title="Learn More About Castle Financial" data-subtitle="Tell us a bit about yourself and what you're looking for. We'll be in touch shortly.">
+        Learn More About Us &rarr;
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ② CLIENT SEGMENTS GRID — "A portfolio built for every step." → -->
+<section class="segments-section">
+  <div class="segments-heading">
+    <h2 class="anim anim-up">A legacy built for every stage.</h2>
+  </div>
+  <div class="segments-grid">
+    <a class="segment-card" href="young-adults.html">
+      <div class="segment-card-img"><img src="https://images.pexels.com/photos/3755824/pexels-photo-3755824.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&dpr=1" alt="Young adult client aged 20-30" loading="lazy" /></div>
+      <div class="segment-card-body">
+        <div class="segment-card-name">Young Adults</div>
+        <div class="segment-card-age">Ages 20–30</div>
+        <span class="segment-card-link">Explore &rarr;</span>
+      </div>
+    </a>
+    <a class="segment-card" href="working-adults.html">
+      <div class="segment-card-img"><img src="https://images.pexels.com/photos/3760514/pexels-photo-3760514.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&dpr=1" alt="Working adult client aged 30-50" loading="lazy" /></div>
+      <div class="segment-card-body">
+        <div class="segment-card-name">Working Adults</div>
+        <div class="segment-card-age">Ages 30–50</div>
+        <span class="segment-card-link">Explore &rarr;</span>
+      </div>
+    </a>
+    <a class="segment-card" href="pre-retirees.html">
+      <div class="segment-card-img"><img src="https://images.pexels.com/photos/5908025/pexels-photo-5908025.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&dpr=1" alt="Pre-retiree client aged 50 and over" loading="lazy" /></div>
+      <div class="segment-card-body">
+        <div class="segment-card-name">Pre-Retirees</div>
+        <div class="segment-card-age">Ages 50+</div>
+        <span class="segment-card-link">Explore &rarr;</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ③ FEATURED EVENT — Annual Report equiv. -->
+<section class="feature-section">
+  <div class="feature-img"><img src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="Investment planning and financial analysis on laptop" loading="lazy" /></div>
+  <div class="feature-body">
+    <p class="feature-eyebrow anim anim-up">Every Saturday &middot; Free</p>
+    <h2 class="anim anim-up d1">Saturday Investment Webinar</h2>
+    <p class="anim anim-up d2">Our weekly live webinar covers market fundamentals, portfolio strategies, and real-time Q&amp;A with our wealth managers. Open to young adults and working adults — no experience needed.</p>
+    <button class="btn btn-black anim anim-up d3" data-signup="Investment Webinar" data-title="Reserve Your Webinar Seat" data-subtitle="Join us every Saturday from 12pm to 2pm — live, online, free.">Register Now</button>
+  </div>
+</section>
+
+<!-- ④ CULTURE / ABOUT — "Many brands, one shared culture…" equiv. -->
+<section class="culture-section" id="about">
+  <div class="culture-bg"><img src="https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1920&h=1080&q=80" alt="Castle Financial Group modern office" loading="lazy" /></div>
+  <div class="culture-overlay"></div>
+  <div class="container">
+    <div class="culture-content">
+      <h2 class="anim anim-up">One firm, one mission, every stage of life.</h2>
+      <p class="anim anim-up d1">Our wealth managers bring curiosity, discipline, and genuine care to every client relationship. Whether you're just starting out or approaching retirement, we build plans that grow with you — through every milestone, every market cycle, and every stage.</p>
+      <a class="link-cta link-cta-white anim anim-up d2" href="careers.html">Explore Career Opportunities &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ⑤ STATS — Market Snapshot equiv. -->
+<section class="stats-section">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <div class="stat-label-top">Families Served</div>
+      <div class="stat-num" data-count="500" data-suffix="+">500+</div>
+      <div class="stat-desc">and growing across all life stages</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label-top">Years of Experience</div>
+      <div class="stat-num" data-count="15" data-suffix="+">15+</div>
+      <div class="stat-desc">in financial planning and advisory</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label-top">Client Satisfaction</div>
+      <div class="stat-num" data-count="98" data-suffix="%">98%</div>
+      <div class="stat-desc">based on annual client surveys</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label-top">Free Programmes</div>
+      <div class="stat-num" data-count="3">3</div>
+      <div class="stat-desc">open events every week and every month</div>
+    </div>
+  </div>
+</section>
+
+<!-- ⑥ EVENTS — Latest News equiv. -->
+<section class="events-section">
+  <div class="container">
+    <div class="events-header">
+      <h2 class="anim anim-up">Latest Events</h2>
+      <button class="link-cta anim" data-signup="General Enquiry" data-title="Get in Touch" data-subtitle="Tell us what you're interested in and we'll point you in the right direction.">View All &rarr;</button>
+    </div>
+    <div class="events-grid">
+      <button class="event-card" data-signup="Investment Webinar" data-title="Reserve Your Webinar Seat" data-subtitle="Join us every Saturday from 12pm to 2pm — live, online, free.">
+        <div class="event-card-img"><img src="https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Investment webinar session" loading="lazy" /></div>
+        <div class="event-card-body">
+          <div class="event-tag">Webinar &middot; Every Saturday</div>
+          <div class="event-title">Weekly Investment Webinar — Live Q&amp;A with Our Advisors</div>
+          <div class="event-meta">Online &middot; 12pm–2pm &middot; Free &middot; Open to all</div>
+          <span class="event-link">Sign Up &rarr;</span>
+        </div>
+      </button>
+      <button class="event-card" data-signup="Baby Playmat" data-title="Claim Your Free Baby Playmat" data-subtitle="Register your interest and we'll arrange a convenient time.">
+        <div class="event-card-img"><img src="https://images.pexels.com/photos/3662849/pexels-photo-3662849.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="New mother with baby" loading="lazy" /></div>
+        <div class="event-card-body">
+          <div class="event-tag">Offer &middot; New Mothers</div>
+          <div class="event-title">Free Premium Baby Playmat for New Mothers</div>
+          <div class="event-meta">Office visit &middot; Free &middot; Includes financial wellness session</div>
+          <span class="event-link">Claim Now &rarr;</span>
+        </div>
+      </button>
+      <button class="event-card" data-signup="Retirement Seminar" data-title="Reserve a Seminar Seat" data-subtitle="Monthly in-person seminars — limited to 20 participants. Register early.">
+        <div class="event-card-img"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&h=400&q=80" alt="Retirement planning seminar" loading="lazy" /></div>
+        <div class="event-card-body">
+          <div class="event-tag">Seminar &middot; Monthly</div>
+          <div class="event-title">Legacy &amp; Retirement Planning Seminar for Pre-Retirees</div>
+          <div class="event-meta">In-person &middot; Monthly &middot; Free &middot; Limited seats</div>
+          <span class="event-link">Reserve a Seat &rarr;</span>
+        </div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ⑦ CAREERS CTA — "Creating Your Future With Us" -->
+<section class="careers-cta-section">
+  <div class="careers-cta-bg"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&h=1080&q=80" alt="Castle Financial Group team" loading="lazy" /></div>
+  <div class="careers-cta-overlay"></div>
+  <div class="container">
+    <div class="careers-cta-content">
+      <h2 class="anim anim-up">Creating Your Future With Us</h2>
+      <p class="anim anim-up d1">No matter the role, the door is open to you at Castle Financial Group. Join a team that believes in purposeful work, genuine mentorship, and building something that lasts.</p>
+      <div class="cta-actions anim anim-up d2">
+        <a class="btn btn-outline-white btn-lg" href="careers.html">Explore Career Opportunities</a>
+        <a class="link-cta link-cta-white" href="careers.html">Work at Castle &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Castle Financial Group<br><span style="font-size:0.65rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Wealth Management</span></div>
+      <p class="footer-brand-desc">Few firms can say they have every stage of life covered — both literally and figuratively. As a trusted wealth management, we focus on building lasting plans and making a genuine difference for every client we serve.</p>
+      <div class="footer-social" style="display:none;">
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Who We Serve</h4>
+      <ul>
+        <li><a href="young-adults.html">Young Adults</a></li>
+        <li><a href="working-adults.html">Working Adults</a></li>
+        <li><a href="pre-retirees.html">Pre-Retirees</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Events</h4>
+      <ul>
+        <li><a href="young-adults.html#webinar">Investment Webinar</a></li>
+        <li><a href="working-adults.html#playmat">Free Baby Playmat</a></li>
+        <li><a href="pre-retirees.html#seminar">Retirement Seminar</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#" data-signup="General Enquiry" data-title="Get in Touch" data-subtitle="We'd love to hear from you.">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copyright">&copy; 2025 Castle Financial Group. All rights reserved. MAS Licensed.</span>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+      <a href="#">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="signupOverlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3 id="modalTitle">Sign Up</h3>
+      <p id="modalSubtitle"></p>
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="signupForm" novalidate>
+        <input type="hidden" id="activityField" name="activity" />
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="firstName">First Name *</label>
+            <input class="form-control" type="text" id="firstName" name="firstName" placeholder="Alex" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="lastName">Last Name *</label>
+            <input class="form-control" type="text" id="lastName" name="lastName" placeholder="Tan" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address *</label>
+          <input class="form-control" type="email" id="email" name="email" placeholder="alex@example.com" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">Mobile Number</label>
+          <input class="form-control" type="tel" id="phone" name="phone" placeholder="+65 9123 4567" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="ageGroup">Age Group</label>
+          <select class="form-control" id="ageGroup" name="ageGroup">
+            <option value="">Select your age group</option>
+            <option value="20-30">20–30 (Young Adult)</option>
+            <option value="30-50">30–50 (Working Adult)</option>
+            <option value="50+">50+ (Pre-Retiree)</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Anything you'd like us to know?</label>
+          <textarea class="form-control" id="message" name="message" rows="3" placeholder="Your current financial goals, questions, or anything else…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-black btn-lg form-submit">Submit &rarr;</button>
+        <p class="form-hint" style="margin-top:12px;text-align:center;">We respond to all enquiries within 1–2 business days.</p>
+      </form>
+      <div id="modalSuccess" style="display:none;">
+        <div class="modal-success">
+          <div class="success-icon">&#10003;</div>
+          <h3>You're registered!</h3>
+          <p>Thank you for reaching out to Castle Financial Group. We'll be in touch shortly.</p>
+          <button class="btn btn-black" onclick="closeModal()">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
